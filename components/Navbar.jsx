@@ -5,19 +5,19 @@ import img from "@/app/public/logo.png";
 export const Navbar = () => {
     return (
         <div>
-            <nav className='hidden font-makalo w-screen text-[#F79A07] absolute right-0 lg:flex px-16 pt-5'>
+            <nav className='hidden font-makalo w-screen text-[#fefefe] absolute right-0 lg:flex px-16 pt-5'>
                 <ul className='flex w-full gap-5 h-full items-center justify-between text-lg'>
                     <li>
                         <Image src={img} width={40} />
                     </li>
                     <div className='flex gap-5'>
-                        <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
+                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/events">Events</a>
                         </li>
-                        <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
+                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/">Results</a>
                         </li>
-                        <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
+                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/leaderboard">Leaderboard</a>
                         </li>
                         
@@ -37,13 +37,13 @@ const Mobile = () => {
                     <Image src={img} width={40} />
                 </li>
                 <div className='flex justify-between'>
-                    <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
+                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>
                         <a href="/events">Events</a>
                     </li>
-                    <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
+                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>
                         <a href="/events">Results</a>
                     </li>
-                    <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
+                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>
                         <a href="/leaderboard">Leaderboard</a>
                     </li>
                 </div>
