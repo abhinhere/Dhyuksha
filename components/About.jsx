@@ -3,7 +3,7 @@ import React from 'react'
 
 export const About = () => {
     return (
-        <div className='flex flex-col items-center justify-center min-h-screen md:h-screen bg-cover bg-center relative px-4 py-8 md:py-0 '>
+        <div className='flex flex-col items-center justify-center min-h-screen md:h-screen bg-cover bg-center relative px-4 py-8 md:py-0 bg-[url("aboutbg.png")] bg-opacity-60 bg-black'>
             {/* Overlay gradient */}
             <div className='absolute inset-0 bg-gradient-to-b'></div>
 
