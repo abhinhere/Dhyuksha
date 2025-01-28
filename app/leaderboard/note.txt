@@ -1,0 +1,18 @@
+<div className='flex w-full gap-10 pt-5 font-cakra text-[#F79A07] flex-col items-center'>
+                    <div className='w-[70%] flex justify-between items-center px-5 h-10 bg-[#2C0800] rounded-xl'>
+                        <h1>Rank</h1>
+                        <h1>Department</h1>
+                        <h1>Points</h1>
+                    </div>
+
+                    {sortedData.map((entry, index) => (
+                        <div
+                            key={index}
+                            className='w-[70%] flex justify-between items-center px-5 h-10 bg-[#2C0800] rounded-xl'
+                        >
+                            <h1>{index + 1}.</h1>
+                            <h1>{entry.department}</h1>
+                            <h1>{entry.points}</h1>
+                        </div>
+                    ))}
+                </div>
