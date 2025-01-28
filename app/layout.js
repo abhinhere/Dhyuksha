@@ -13,7 +13,7 @@ const cakra = localFont({
 });
 
 const makalo = localFont({
-  src: "./fonts/MAKALO Regular.ttf",
+  src: "./fonts/Orbitron.ttf",
   variable: "--font-makalo",
   weight: "100 900",
 });

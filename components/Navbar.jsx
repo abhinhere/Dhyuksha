@@ -5,17 +5,17 @@ import img from "@/app/public/logo.png";
 export const Navbar = () => {
     return (
         <div>
-            <nav className='hidden font-cakra w-screen text-[#F79A07] absolute right-0 lg:flex px-16 pt-5'>
+            <nav className='hidden font-makalo w-screen text-[#F79A07] absolute right-0 lg:flex px-16 pt-5'>
                 <ul className='flex w-full gap-5 h-full items-center justify-between text-lg'>
                     <li>
-                        <Image src={img} width={32} />
+                        <Image src={img} width={40} />
                     </li>
                     <div className='flex gap-5'>
                         <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
-                            <a href="/">Home</a>
+                            <a href="/events">Events</a>
                         </li>
                         <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
-                            <a href="/events">Events</a>
+                            <a href="/">Results</a>
                         </li>
                         <li className='hover:to-[#8A1302] flex items-center hover:from-[#360200] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/leaderboard">Leaderboard</a>
@@ -31,17 +31,17 @@ export const Navbar = () => {
 
 const Mobile = () => {
     return (
-        <nav className='lg:hidden font-cakra w-screen text-amber-500 absolute right-0 flex pt-5 pl-5'>
+        <nav className='lg:hidden font-makalo w-screen text-amber-500 absolute right-0 flex pt-5 pl-5'>
             <ul className='flex w-full justify-between items-center text-sm pr-5'>
                 <li>
-                    <Image src={img} width={32} />
+                    <Image src={img} width={40} />
                 </li>
                 <div className='flex justify-between'>
                     <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
-                        <a href="/">Home</a>
+                        <a href="/events">Events</a>
                     </li>
                     <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
-                        <a href="/events">Events</a>
+                        <a href="/events">Results</a>
                     </li>
                     <li className='hover:to-[#8A1302] hover:from-[#360200] bg-gradient-to-r p-2 rounded-xl'>
                         <a href="/leaderboard">Leaderboard</a>

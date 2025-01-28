@@ -8,12 +8,12 @@ export const Hero = () => {
             <div className='hidden lg:flex lg:gap-32 lg:flex-col font-makalo h-full w-full justify-center items-center'>
                 <div>
                     <GradualSpacing
-                        className="text-[200px] bg-gradient-to-b bg-clip-text text-transparent from-[#F79A07] via-[#B95811] to-[#7B161C]"
-                        text="JWAALA'24"
+                        className="text-[100px] bg-gradient-to-b bg-clip-text text-transparent from-[#F79A07] via-[#B95811] to-[#7B161C]"
+                        text="DHYUKSHA"
                     />
                     <GradualSpacing
                         className="text-9xl bg-gradient-to-b bg-clip-text text-transparent from-[#F79A07] via-[#B95811] to-[#7B161C]"
-                        text="OCT 28 | 29"
+                        text="JAN 27 TO FEB 6"
                     />
                 </div>
                 <div className="relative flex w-full font-cakra text-[#F79A07] bg-[#1F0201] overflow-x-hidden">
