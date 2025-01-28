@@ -4,10 +4,10 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import Footer from "@/components/Footer";
 import { About } from "@/components/About";
-import { Scoreboard } from "@/components/Scoreboard";
 import LoadingPage from "@/components/LoadingPage";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from "react";
+import Leaderboard from "@/components/leaderboard/page";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,8 +29,8 @@ export default function Home() {
           <>
             <Navbar />
             <Hero/>
+            <Leaderboard/>
             <About/>
-            <Scoreboard/>
             <Footer />
           </>
         )}
