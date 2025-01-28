@@ -4,7 +4,7 @@ import GradualSpacing from "@/components/ui/gradual-spacing";
 
 export const Hero = () => {
     return (
-        <div className='h-screen'>
+        <div className='h-screen bg-[url("herobg.png")] bg-opacity-60 bg-black'>
             <div className='hidden lg:flex lg:gap-32 lg:flex-col font-makalo h-full w-full justify-center items-center'>
                 <div>
                     <GradualSpacing

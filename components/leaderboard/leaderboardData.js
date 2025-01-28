@@ -1,12 +1,12 @@
 const leaderboardData = [
-    { rank: 1, department: 'cse', points: "--" },
-    { rank: 2, department: 'it', points: "--" },
-    { rank: 3, department: 'ec', points: "--" },
-    { rank: 4, department: 'staff', points: "--" },
-    { rank: 5, department: 'EEE', points: "--" },
-    { rank: 6, department: 'CIVIL', points: "--" },
-    { rank: 7, department: 'DIPLOMA', points: "--" },
-    { rank: 8, department: 'MCA', points: "--" }
+    { rank: 1, department: 'EC', points: "10" },
+    { rank: 2, department: 'CE', points: "10" },
+    { rank: 3, department: 'MCA', points: "8" },
+    { rank: 4, department: 'STAFF', points: "5" },
+    { rank: 5, department: 'DIPLOMA', points: "3" },
+    { rank: 6, department: 'CSE', points: "0" },
+    { rank: 7, department: 'EEE', points: "0" },
+    { rank: 8, department: 'IT', points: "0" }
 ];
 
 export default leaderboardData;
