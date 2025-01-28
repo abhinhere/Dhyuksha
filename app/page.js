@@ -16,11 +16,7 @@ export default function Home() {
     // Simulate a delay for loading
     const timer = setTimeout(() => {
       setIsLoading(false);
-<<<<<<< HEAD
     }, 800); // Adjust the loading duration as needed
-=======
-    }, 1000); // Adjust the loading duration as needed
->>>>>>> 4233eb085615575d6b4cf1d09b74183cd2465b18
 
     return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);
