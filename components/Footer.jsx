@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="flex flex-col gap-5 items-center justify-center h-[250px]">
                 <div className="flex items-center gap-4 pt-">
                     <Image src={img} alt="Dhyuksha" width={50} height={50} />
-                    <p className="text-5xl font-makalo">DHYUKSHA</p>
+                    <p className="text-4xl font-makalo">DHYUKSHA</p>
                 </div>
-                <div className="flex items-center font-makala flex-col">
-                    <p>Students Union</p>
+                <div className="flex items-center font-makalo flex-col">
+                    <p>Students Union 2023-24</p>
                     <p>College of Engineering Vadakara</p>
                 </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
                     href="https://www.instagram.com/dhyuksha.cev"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#fefefe] flex hover:text-black transition-colors duration-300"
+                    className="text-[#fefefe] font-makalo flex hover:text-black transition-colors duration-300"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

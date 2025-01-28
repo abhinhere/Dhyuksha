@@ -27,7 +27,7 @@ const Mobile = () => {
         <div className='lg:hidden w-[100%] gap-32 font-makalo flex-col h-[100%] flex justify-center items-center bg-[url("blackbg.png")] bg-opacity-60 bg-black'>
             <div>
                 <GradualSpacing
-                    className="text-7xl text-[#fefefe]"
+                    className="text-5xl text-[#fefefe]"
                     text="DHYUKSHA"
                 />
                 <GradualSpacing
