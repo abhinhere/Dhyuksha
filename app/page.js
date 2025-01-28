@@ -23,17 +23,17 @@ export default function Home() {
 
   return (
     <div className="w-full h-[100svh]">
-        {isLoading ? (
-          <LoadingPage /> // Show loader during loading
-        ) : (
-          <>
-            <Navbar />
-            <Hero/>
-            <Leaderboard/>
-            <About/>
-            <Footer />
-          </>
-        )}
+      {isLoading ? (
+        <LoadingPage /> // Show loader during loading
+      ) : (
+        <>
+          <Navbar /> {/* This will only be shown after loading is complete */}
+          <Hero />
+          <Leaderboard />
+          <About />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
