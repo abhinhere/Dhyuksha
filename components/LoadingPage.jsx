@@ -14,7 +14,11 @@ const LoadingPage = () => {
         }
         return prev + 1;
       });
+<<<<<<< HEAD
     }, 5); // Adjust speed here (e.g., 30ms for smooth progress)
+=======
+    }, 10); // Adjust speed here (e.g., 30ms for smooth progress)
+>>>>>>> 4233eb085615575d6b4cf1d09b74183cd2465b18
 
     return () => clearInterval(interval);
   }, []);
