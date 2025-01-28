@@ -31,7 +31,7 @@ export const Navbar = () => {
 
 const Mobile = () => {
     return (
-        <nav className='lg:hidden font-makalo w-screen text-amber-500 absolute right-0 flex pt-5 pl-5'>
+        <nav className='lg:hidden font-makalo w-screen text-[#fefefe]  absolute right-0 flex pt-5 pl-5'>
             <ul className='flex w-full justify-between items-center text-sm pr-5'>
                 <li>
                     <Image src={img} width={40} />
