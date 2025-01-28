@@ -1,0 +1,19 @@
+.about-container{
+    background-color: #ababab;
+    padding:6% 7%;
+    font-family: makalo;
+
+}
+.about-s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-title{
+    font-weight:500;
+    font-size: 6rem;
+}
+.about-description{
+    font-weight:200;
+    max-width:650px;
+}
