@@ -31,8 +31,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Jwaala'24",
-  description: "Official website of arts festival of CEV JWAALA'24",
+  title: "Dhyuksha",
+  description: "Official website of sports fest of CEV Dhyuksha 25",
 };
 
 export default function RootLayout({ children }) {

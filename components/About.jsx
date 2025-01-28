@@ -8,12 +8,12 @@ export const About = () => {
             <div className='absolute inset-0 bg-gradient-to-b'></div>
 
             <div className='relative z-10 flex flex-col items-center text-center'>
-                <h1 className='font-makalo text-5xl md:text-7xl bg-gradient-to-b bg-clip-text text-transparent from-[#F79A07] via-[#B95811] to-[#7B161C]'>
-                    About JWAALA
+                <h1 className='font-makalo text-5xl md:text-7xl text-[#fefefe]'>
+                    About
                 </h1>
 
-                <p className='text-base md:text-lg font-makalo text-[#F79A07] mt-4 md:mt-6 w-full md:w-[75%] leading-relaxed max-w-3xl'>
-                    Jwaala: The Flame of Arts is the College of Engineering Vadakara’s vibrant inter-departmental arts and literary festival. It unites students across disciplines to showcase their talents in music, dance, theater, and visual arts, fostering a campus-wide celebration of creativity and expression. From captivating solo performances and traditional group dances to intricate offstage events like painting and poetry, Jwaala highlights the diverse artistic spirit of CEV. More than a competition, Jwaala is a celebration of community, inspiring collaboration and honoring the passion that fuels the flame of arts in every student.
+                <p className='text-base md:text-lg font-makalo text-[#fefefe] mt-4 md:mt-6 w-full md:w-[95%] leading-relaxed max-w-3xl'>
+                Dhyuksha: The Spirit of Sports is the College of Engineering Vadakara’s dynamic inter-departmental sports festival. It brings students together from all disciplines to showcase their athletic skills and team spirit in a wide range of sports and games. From thrilling football matches and high-energy relay races to precision-driven games like badminton and chess, Dhyuksha celebrates the vibrant sporting culture of CEV. More than a competition, Dhyuksha is a celebration of teamwork, perseverance, and the unyielding drive to excel, fostering a campus-wide spirit of camaraderie and honoring the passion that fuels the spirit of sports in every student.
                 </p>
 
             </div>

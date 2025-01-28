@@ -55,7 +55,7 @@ export const Scoreboard = () => {
 
     return (
         <div className='flex flex-col w-full items-center pb-10 bg-[url("blackbg.png")]'>
-            <h1 className='font-makalo text-5xl md:text-7xl bg-gradient-to-b bg-clip-text text-transparent from-[#F79A07] via-[#B95811] to-[#7B161C] drop-shadow-lg'>
+            <h1 className='font-makalo text-5xl md:text-7xl text-[#fefefe]'>
                 Leaderboard
             </h1>
             <div className='hidden md:flex'>
