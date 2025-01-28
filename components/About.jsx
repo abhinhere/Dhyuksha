@@ -12,7 +12,7 @@ export const About = () => {
                     About JWAALA
                 </h1>
 
-                <p className='text-base md:text-lg font-cakra text-[#F79A07] mt-4 md:mt-6 w-full md:w-[75%] leading-relaxed max-w-3xl'>
+                <p className='text-base md:text-lg font-makalo text-[#F79A07] mt-4 md:mt-6 w-full md:w-[75%] leading-relaxed max-w-3xl'>
                     Jwaala: The Flame of Arts is the College of Engineering Vadakara’s vibrant inter-departmental arts and literary festival. It unites students across disciplines to showcase their talents in music, dance, theater, and visual arts, fostering a campus-wide celebration of creativity and expression. From captivating solo performances and traditional group dances to intricate offstage events like painting and poetry, Jwaala highlights the diverse artistic spirit of CEV. More than a competition, Jwaala is a celebration of community, inspiring collaboration and honoring the passion that fuels the flame of arts in every student.
                 </p>
 
