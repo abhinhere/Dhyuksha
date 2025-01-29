@@ -24,7 +24,7 @@ const handleScrollDown = () => {
                     </li>
                     <div className='flex gap-5'>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
-                            <a href="/">Events</a>
+                            <a href="/events">Events</a>
                         </li>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'onClick={handleScrollDown}>
                             Results
@@ -58,7 +58,7 @@ const Mobile = () => {
                 </li>
                 <div className='flex justify-between'>
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>
-                        <a href="/">Events</a>
+                        <a href="/events">Events</a>
                     </li>
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'onClick={handleScrollDown}>
                         Results
