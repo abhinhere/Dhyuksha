@@ -1,32 +1,8 @@
-.results-container {
-    background: url("../../app/herobg.png");
-    display: flex;
-    flex-direction: column;
-    height:100vh;
-    font-family: 'makalo';
-    color: #565656;
-    overflow: hidden;
-    font-size: 12rem;
-    z-index: 1;
-    position: relative; 
-    padding:4% 4%;/* Needed to ensure the pseudo-element is positioned correctly */
-  }
-  
-  .results-container::before {
-    content: "DHYUKSHA"; /* Replace with your desired background text */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) ; /* Centers and rotates the text */
-    font-size: 14rem; /* Makes the text large enough to fill the area */
-    color: rgba(132, 132, 132, 0.1); /* Light color for the background text */
-    z-index: -1; /* Puts the text behind the container content */
-  }
-  .list .game-name {
+.list .game-name {
     display: flex;
     justify-content: center;
     color: #fefefe;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .cards{
     display: flex;
@@ -37,16 +13,7 @@
   }
   .cards div{
     background-color: aqua;
-    width:230px;
-    height:230px;
+    width:210px;
+    height:210px;
     border-radius: 6px;
-  }
-  
-  @media (max-width:800px) {
-    .cards{
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-      }
   }

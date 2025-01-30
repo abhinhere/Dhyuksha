@@ -9,7 +9,7 @@ export default function CardHoverEffectDemo() {
             <div className='font-makalo flex-col flex mx-auto px-8 w-full h-full bg-[] items-center'>
                 <div className="flex justify-center flex-col w-full h-full items-center py-20 gap-10">
                     <div className="flex items-center flex-col">
-                        <h1 className="lg:text-9xl text-5xl text-[#fefefe]">
+                        <h1 className="lg:text-7xl text-5xl text-[#fefefe]">
                             EVENTS
                         </h1>
                         <h3 className="lg:text-6xl text-4xl text-[#fefefe]">
@@ -19,7 +19,7 @@ export default function CardHoverEffectDemo() {
                     <div className="flex flex-wrap justify-center gap-4">
                         {onstage.map((event, index) => (
                             <div className="text-700 px-5 pt-5 w-[300px] h-[300px] bg-[#152c37] rounded-lg hover:-translate-x-5 hover:-translate-y-5 text-[#fefefe] hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r">
-                                <h6 className="text-4xl">
+                                <h6 className="text-3xl">
                                     {event.title}
                                 </h6>
                                 <h7>

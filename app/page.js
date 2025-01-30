@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero";
 import Footer from "@/components/Footer";
 import { About } from "@/components/About";
 import LoadingPage from "@/components/LoadingPage";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from "react";
 import Leaderboard from "@/components/leaderboard/page";
 
@@ -27,7 +26,7 @@ export default function Home() {
         <LoadingPage /> // Show loader during loading
       ) : (
         <>
-          <Navbar /> {/* This will only be shown after loading is complete */}
+          <Navbar />
           <Hero />
           <Leaderboard />
           <About />
