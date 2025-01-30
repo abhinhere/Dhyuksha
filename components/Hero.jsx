@@ -4,7 +4,7 @@ import GradualSpacing from "@/components/ui/gradual-spacing";
 
 export const Hero = () => {
     return (
-        <div className='h-screen bg-[url("herobg.png")] bg-opacity-60 bg-black'>
+        <div className='h-screen bg-[url("herobg.png")] bg-opacity-60 bg-black bg-cover'>
             <div className='hidden lg:flex lg:gap-32 lg:flex-col font-makalo h-full w-full justify-center items-center'>
                 <div>
                     <GradualSpacing
@@ -24,7 +24,7 @@ export const Hero = () => {
 
 const Mobile = () => {
     return (
-        <div className='lg:hidden w-[100%] gap-32 font-makalo flex-col h-[100%] flex justify-center items-center bg-[url("blackbg.png")] bg-opacity-60 bg-black'>
+        <div className='lg:hidden w-[100%] gap-32 font-makalo flex-col h-[100%] flex justify-center items-center bg-[url("blackbg.png")] bg-opacity-60 bg-black bg-cover'>
             <div>
                 <GradualSpacing
                     className="text-5xl text-[#fefefe]"
