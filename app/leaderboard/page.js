@@ -6,8 +6,8 @@ const Leaderboard = () => {
     const sortedData = [...leaderboardData].sort((a, b) => b.points - a.points);
 
     return (
-        <div className='flex w-full gap-4 pt-12 pb-12 font-makalo text-[#fefefe] flex-col items-center bg-[url("leaderbg.png")] bg-opacity-60 bg-black'>
-            <h1 className='font-makalo text-5xl md:text-7xl text-[#fefefe]'>
+        <div className='flex w-full gap-4 pt-20 pb-12 font-makalo text-[#fefefe] flex-col items-center bg-[url("leaderbg.png")] bg-opacity-60 bg-black bg-cover'>
+            <h1 className='font-makalo text-4xl md:text-5xl text-[#fefefe]'>
                 Leaderboard
             </h1>
                     <div className='w-[70%] flex justify-between items-center px-5 h-10 bg-[#152C37] rounded-xl hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r' >

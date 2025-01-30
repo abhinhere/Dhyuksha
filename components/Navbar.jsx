@@ -20,7 +20,7 @@ const handleScrollDown = () => {
             <nav className='hidden font-makalo w-screen text-[#fefefe] absolute right-0 lg:flex px-16 pt-5'>
                 <ul className='flex w-full gap-5 h-full items-center justify-between text-lg'>
                     <li>
-                        <Image src={img} width={40} />
+                        <a href='/'><Image src={img} width={40} /></a>
                     </li>
                     <div className='flex gap-5'>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
@@ -29,8 +29,8 @@ const handleScrollDown = () => {
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'onClick={handleScrollDown}>
                             Results
                         </li>
-                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'onClick={handleScrollDown}>
-                            Leaderboard
+                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
+                            <a href="/leaderboard">Leaderboard</a>
                         </li>
                         
                     </div>
