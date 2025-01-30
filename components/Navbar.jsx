@@ -38,7 +38,7 @@ const Mobile = () => {
         <nav className='lg:hidden font-makalo w-screen text-[#fefefe] absolute right-0 flex pt-5 pl-5'>
             <ul className='flex w-full justify-between items-center text-sm pr-5'>
                 <li>
-                    <Image src={img} width={40} />
+                <a href='/'><Image src={img} width={40} /></a>
                 </li>
                 <div className='flex justify-between'>
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>

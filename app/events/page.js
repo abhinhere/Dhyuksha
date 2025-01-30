@@ -4,12 +4,12 @@ import { offstage, onstage } from "./items";
 
 export default function CardHoverEffectDemo() {
     return (
-        <div className='w-[100%] h-[100%] flex bg-[url("aboutbg.png")] bg-opacity-60 bg-black'>
+        <div className='w-[100%] h-[100%] flex bg-[url("aboutbg.png")] bg-opacity-60 bg-black bg-cover'>
 
             <div className='font-makalo flex-col flex mx-auto px-8 w-full h-full bg-[] items-center'>
                 <div className="flex justify-center flex-col w-full h-full items-center py-20 gap-10">
                     <div className="flex items-center flex-col">
-                        <h1 className="lg:text-9xl text-6xl text-[#fefefe]">
+                        <h1 className="lg:text-9xl text-5xl text-[#fefefe]">
                             EVENTS
                         </h1>
                         <h3 className="lg:text-6xl text-4xl text-[#fefefe]">
