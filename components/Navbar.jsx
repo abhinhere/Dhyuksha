@@ -6,14 +6,6 @@ import { useState } from 'react';
 import img from "@/app/public/logo.png";
 
 export const Navbar = () => {
-    const [scrollAmount, setScrollAmount] = useState(700); // Adjust as needed
-
-const handleScrollDown = () => {
-  window.scrollTo({
-    top: window.scrollY + scrollAmount,
-    behavior: 'smooth',
-  });
-};
 
     return (
         <div>
@@ -26,8 +18,8 @@ const handleScrollDown = () => {
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/events">Events</a>
                         </li>
-                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'onClick={handleScrollDown}>
-                            Results
+                        <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'>
+                            <a href="/results">Results</a>
                         </li>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/leaderboard">Leaderboard</a>
@@ -42,14 +34,6 @@ const handleScrollDown = () => {
 }
 
 const Mobile = () => {
-    const [scrollAmount, setScrollAmount] = useState(700); // Adjust as needed
-
-    const handleScrollDown = () => {
-      window.scrollTo({
-        top: window.scrollY + scrollAmount,
-        behavior: 'smooth',
-      });
-    };
     return (
         <nav className='lg:hidden font-makalo w-screen text-[#fefefe] absolute right-0 flex pt-5 pl-5'>
             <ul className='flex w-full justify-between items-center text-sm pr-5'>
@@ -60,10 +44,10 @@ const Mobile = () => {
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl'>
                         <a href="/events">Events</a>
                     </li>
-                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'onClick={handleScrollDown}>
-                        Results
+                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'>
+                    <a href="/results">Results</a>
                     </li>
-                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'onClick={handleScrollDown}>
+                    <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'>
                         Leaderboard
                     </li>
                 </div>
