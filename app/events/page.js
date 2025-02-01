@@ -18,7 +18,7 @@ export default function CardHoverEffectDemo() {
                     </div>
                     <div className="flex flex-wrap justify-center gap-4">
                         {onstage.map((event, index) => (
-                            <div className="text-700 px-5 pt-5 w-[300px] h-[300px] bg-[#152c37] rounded-lg hover:-translate-x-5 hover:-translate-y-5 text-[#fefefe] hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r">
+                            <div className="text-700 px-5 pt-5 w-[200px] h-[200px] bg-[#152c37] rounded-lg hover:-translate-x-5 hover:-translate-y-5 text-[#fefefe] hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r">
                                 <h6 className="text-3xl">
                                     {event.title}
                                 </h6>
@@ -35,7 +35,7 @@ export default function CardHoverEffectDemo() {
 
                     <div className="flex flex-wrap justify-center gap-4">
                         {offstage.map((event, index) => (
-                            <div className="text-[#BD620D] px-5 pt-5 w-[300px] h-[300px] bg-[#152c37] rounded-lg hover:-translate-x-5 hover:-translate-y-5 text-[#fefefe] hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r">
+                            <div className="text-[#BD620D] px-5 pt-5 w-[200px] h-[200px] bg-[#152c37] rounded-lg hover:-translate-x-5 hover:-translate-y-5 text-[#fefefe] hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r">
                                 <h6 className="text-4xl">
                                     {event.title}
                                 </h6>
