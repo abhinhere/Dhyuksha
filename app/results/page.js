@@ -1,47 +1,86 @@
-'use client';
+"use client";
+import React from "react";
+// Import different images for each placement
+import ece from "./ecetug.jpg";
+import mca from "./mcatug.jpg";
+import tug from "./tugofwar.jpg";
+import cricket from "./cricket.png"; 
 
 export default function ResultsPage() {
+  const events = [
+    {
+      title: "Tug of War (Men)",
+      winners: [
+        { team: "ECE", image: ece },
+        { team: "MCA", image: mca },
+        { team: "", image: tug },
+      ],
+    },
+    {
+      title: "Tug of War (Women)",
+      winners: [
+        { team: "CE", image: tug },
+        { team: "STAFF", image: tug },
+        { team: "", image: tug },
+      ],
+    },
+    {
+      title: "Cricket (Men)",
+      winners: [
+        { team: "MCA", image: mca },
+        { team: "STAFF", image: cricket },
+        { team: "ECE", image: ece },
+      ],
+    },
+    {
+      title: "Cricket (Women)",
+      winners: [
+        { team: "IT", image: cricket },
+        { team: "ECE", image: cricket },
+        { team: "CSE", image: cricket },
+      ],
+    },
+  ];
+
   return (
-    <div className="max-w-5xl mx-auto p-10 pt-20 text-center text-white font-makalo bg-cover">
+    <div className=' max-w-5xl mx-auto p-10 pt-20 text-center text-white font-makalo '>
       <h1 className="text-5xl font-extrabold mb-8 text-white">Dhyuksha Results</h1>
-      <p className="mb-10 text-xl text-white">Check out the winners of each event!</p>
+      <p className="mb-10 text-xl text-gray-300">Check out the winners of each event!</p>
 
-      <div className="mb-12">
-        <h2 className="mb-6 text-3xl font-semibold text-white">Tug of War (Men)</h2>
-        <div className="grid gap-8 md:grid-cols-3">
-        <div className="p-8 h-56 bg-yellow-400 rounded-xl shadow-lg text-lg flex flex-col justify-center bg-[url('/tugofwar.jpg')] bg-cover bg-center">
-          <h2 className="text-3xl font-bold">1st Place</h2>
-          <p className="mt-3 text-black"></p>
-        </div>
+      {events.map((event, eventIndex) => (
+        <div key={eventIndex} className="mb-12">
+          {/* Event Title (Smaller Size) */}
+          <h2 className="mb-6 text-2xl md:text-3xl font-semibold text-white">{event.title}</h2>
 
-          <div className="p-8 h-56 bg-gray-400 rounded-xl shadow-lg text-lg flex flex-col justify-center">
-            <h2 className="text-3xl font-bold">2nd Place</h2>
-            <p className="mt-3 text-black"></p>
-          </div>
-          <div className="p-8 h-56 bg-orange-400 rounded-xl shadow-lg text-lg flex flex-col justify-center">
-            <h2 className="text-3xl font-bold">3rd Place</h2>
-            <p className="mt-3 text-black"></p>
-          </div>
-        </div>
-      </div>
+          <div className="grid gap-8 md:grid-cols-3">
+            {event.winners.map((winner, index) => (
+              <div
+                key={index}
+                className="relative h-64 rounded-xl shadow-lg overflow-hidden transform transition-all hover:scale-105"
+              >
+                {/* Use Original Background Image */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url(${winner.image.src})`, // Reference the imported image path
+                  }}
+                ></div>
 
-      <div className="mb-12">
-        <h2 className="mb-6 text-3xl font-semibold text-white">Tug of War (Women)</h2>
-        <div className="grid gap-8 md:grid-cols-3">
-          <div className="p-8 h-56 bg-yellow-400 rounded-xl shadow-lg text-lg flex flex-col justify-center">
-            <h2 className="text-3xl font-bold">1st Place</h2>
-            <p className="mt-3 text-black"></p>
-          </div>
-          <div className="p-8 h-56 bg-gray-400 rounded-xl shadow-lg text-lg flex flex-col justify-center">
-            <h2 className="text-3xl font-bold">2nd Place</h2>
-            <p className="mt-3 text-black"></p>
-          </div>
-          <div className="p-8 h-56 bg-orange-400 rounded-xl shadow-lg text-lg flex flex-col justify-center">
-            <h2 className="text-3xl font-bold">3rd Place</h2>
-            <p className="mt-3 text-black"></p>
+                {/* Winner Info Box - Gold, Silver, Bronze Titles */}
+                <div
+                  className={`absolute bottom-3 left-1/2 transform -translate-x-1/2 w-4/5 p-3 rounded-md text-center shadow-md
+                  ${index === 0 ? "bg-yellow-500 text-black" : 
+                    index === 1 ? "bg-gray-400 text-black" : 
+                    "bg-orange-500 text-black"}`}
+                >
+                  <h2 className="text-base md:text-lg font-bold">{index + 1}st Place</h2>
+                  <p className="mt-1 font-semibold">{winner.team}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 }
