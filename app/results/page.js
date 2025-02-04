@@ -6,6 +6,9 @@ import mca from "./results_images/mcatug.jpg";
 import diptug from "./results_images/diplomatug.jpg";
 import tug from "./results_images/tugofwar.jpg";
 import cricket from "./results_images/cricket.png"; 
+import cetug from "./results_images/civiltug.jpg";
+import stafftug from "./results_images/stafftugwn.jpg";
+import civiltennies from "./results_images/civiltennieswn.jpg"; 
 
 export default function ResultsPage() {
   const events = [
@@ -20,8 +23,8 @@ export default function ResultsPage() {
     {
       title: "Tug of War (Women)",
       winners: [
-        { team: "CE", image: tug },
-        { team: "STAFF", image: tug },
+        { team: "CE", image: cetug },
+        { team: "STAFF", image: stafftug },
         { team: "MCA", image: tug },
       ],
     },
@@ -54,7 +57,7 @@ export default function ResultsPage() {
       winners: [
         { team: "IT", image: cricket },
         { team: "CSE", image: cricket },
-        { team: "CIVIL", image: cricket },
+        { team: "CIVIL", image: civiltennies },
       ],
     },
   ];
