@@ -40,6 +40,22 @@ export default function ResultsPage() {
         { team: "CSE", image: cricket },
       ],
     },
+    {
+      title: "Table Tennis (Men)",
+      winners: [
+        { team: "EEE", image: cricket },
+        { team: "CSE", image: cricket },
+        { team: "CIVIL", image: cricket },
+      ],
+    },
+    {
+      title: "Table Tennis (Women)",
+      winners: [
+        { team: "IT", image: cricket },
+        { team: "CSE", image: cricket },
+        { team: "CIVIL", image: cricket },
+      ],
+    },
   ];
 
   return (
