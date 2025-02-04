@@ -9,6 +9,7 @@ import cricket from "./results_images/cricket.png";
 import cetug from "./results_images/civiltug.jpg";
 import stafftug from "./results_images/stafftugwn.jpg";
 import civiltennies from "./results_images/civiltennieswn.jpg"; 
+import eeeten from "./results_images/eeetenn.jpg";
 
 export default function ResultsPage() {
   const events = [
@@ -47,7 +48,7 @@ export default function ResultsPage() {
     {
       title: "Table Tennis (Men)",
       winners: [
-        { team: "EEE", image: cricket },
+        { team: "EEE", image: eeeten },
         { team: "ECE", image: cricket },
         { team: "STAFF", image: cricket },
       ],
