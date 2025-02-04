@@ -24,7 +24,7 @@ const Leaderboard = () => {
                     key={entry.department} // Use department as key if unique
                     className='w-full md:w-[70%] flex justify-center items-center px-2 h-10 bg-[#152C37] rounded-xl hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r text-center'
                 >
-                    <h1 className="w-1/3 text-center">{index + 1}.</h1> {/* Correct rank */}
+                    <h1 className="w-1/3 text-center">{entry.rank}.</h1> {/* Correct rank */}
                     <h1 className="w-1/3 text-center">{entry.department}</h1>
                     <h1 className="w-1/3 text-center">{entry.points}</h1>
                 </div>
