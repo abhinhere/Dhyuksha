@@ -13,7 +13,7 @@ export default function ResultsPage() {
       winners: [
         { team: "ECE", image: ece },
         { team: "MCA", image: mca },
-        { team: "", image: tug },
+        { team: "DIPLOMA", image: tug },
       ],
     },
     {
@@ -21,7 +21,7 @@ export default function ResultsPage() {
       winners: [
         { team: "CE", image: tug },
         { team: "STAFF", image: tug },
-        { team: "", image: tug },
+        { team: "MCA", image: tug },
       ],
     },
     {
