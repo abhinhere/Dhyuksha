@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 // Import different images for each placement
-import ece from "./ecetug.jpg";
-import mca from "./mcatug.jpg";
-import tug from "./tugofwar.jpg";
-import cricket from "./cricket.png"; 
+import ece from "./results_images/ectug.jpg";
+import mca from "./results_images/mcatug.jpg";
+import diptug from "./results_images/diplomatug.jpg";
+import tug from "./results_images/tugofwar.jpg";
+import cricket from "./results_images/cricket.png"; 
 
 export default function ResultsPage() {
   const events = [
@@ -13,7 +14,7 @@ export default function ResultsPage() {
       winners: [
         { team: "ECE", image: ece },
         { team: "MCA", image: mca },
-        { team: "DIPLOMA", image: tug },
+        { team: "DIPLOMA", image: diptug },
       ],
     },
     {
@@ -44,8 +45,8 @@ export default function ResultsPage() {
       title: "Table Tennis (Men)",
       winners: [
         { team: "EEE", image: cricket },
-        { team: "CSE", image: cricket },
-        { team: "CIVIL", image: cricket },
+        { team: "ECE", image: cricket },
+        { team: "STAFF", image: cricket },
       ],
     },
     {
@@ -89,7 +90,7 @@ export default function ResultsPage() {
                     index === 1 ? "bg-gray-400 text-black" : 
                     "bg-orange-500 text-black"}`}
                 >
-                  <h2 className="text-base md:text-lg font-bold">{index + 1}st Place</h2>
+                  <h2 className="text-base md:text-lg font-bold">{index === 0 ? "1st" : index === 1 ? "2nd" : "3rd"} Place</h2>
                   <p className="mt-1 font-semibold">{winner.team}</p>
                 </div>
               </div>
