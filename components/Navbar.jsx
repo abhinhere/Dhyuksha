@@ -18,7 +18,7 @@ export const Navbar = () => {
                             <a href="/events">Events</a>
                         </li>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl cursor-pointer'>
-                            <a href="/n">Results</a>
+                            <a href="/results">Results</a>
                         </li>
                         <li className='hover:to-[#152c37] flex items-center hover:from-[#000102] bg-gradient-to-r px-5 rounded-xl'>
                             <a href="/leaderboard">Leaderboard</a>
@@ -44,7 +44,7 @@ const Mobile = () => {
                         <a href="/events">Events</a>
                     </li>
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'>
-                    <a href="/n">Results</a>
+                    <a href="/results">Results</a>
                     </li>
                     <li className='hover:to-[#152c37] hover:from-[#000102] bg-gradient-to-r p-2 rounded-xl cursor-pointer'>
                     <a href="/leaderboard">LeaderBoard</a>
