@@ -3,6 +3,14 @@ const offstage = [
         title: "Running",
         description: "",
     },
+    {
+        title: "Shot put",
+        description: "",
+    },
+    {
+        title: "Discus throw",
+        description: "",
+    },
 ];
 
 const onstage = [
@@ -16,19 +24,19 @@ const onstage = [
     },
     {
         title: "Table tennis",
-        description: "30/01/2025",
-    },
-    {
-        title: "Volleyball",
-        description: "03/02/2025, 04/02/2025",
-    },
-    {
-            title: "Badminton",
-        description: "05/02/2025",
+        description: "3/02/2025, 4/02/2025",
     },
     {
         title: "Football",
-        description: "06/02/2025",
+        description: "05/02/2025",
+    },
+    {
+        title: "Badminton",
+    description: "",
+    },
+    {
+        title: "Volleyball",
+        description: "",
     },
 ];
 
