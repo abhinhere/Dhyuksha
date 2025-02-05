@@ -4,12 +4,14 @@ import React from "react";
 import ece from "./results_images/ectug.jpg";
 import mca from "./results_images/mcatug.jpg";
 import diptug from "./results_images/diplomatug.jpg";
-import tug from "./results_images/tugofwar.jpg";
 import cricket from "./results_images/cricket.png"; 
 import cetug from "./results_images/civiltug.jpg";
 import stafftug from "./results_images/stafftugwn.jpg";
 import civiltennies from "./results_images/civiltennieswn.jpg"; 
 import eeeten from "./results_images/eeetenn.jpg";
+import wwmcatug from "./results_images/wmcatug.jpg";
+import mmcack from "./results_images/mcack.jpg";
+import wcsett from "./results_images/csett.jpg";
 
 export default function ResultsPage() {
   const events = [
@@ -26,13 +28,13 @@ export default function ResultsPage() {
       winners: [
         { team: "CE", image: cetug },
         { team: "STAFF", image: stafftug },
-        { team: "MCA", image: tug },
+        { team: "MCA", image: wwmcatug },
       ],
     },
     {
       title: "Cricket (Men)",
       winners: [
-        { team: "MCA", image: mca },
+        { team: "MCA", image: mmcack },
         { team: "STAFF", image: cricket },
         { team: "ECE", image: ece },
       ],
@@ -57,7 +59,7 @@ export default function ResultsPage() {
       title: "Table Tennis (Women)",
       winners: [
         { team: "IT", image: cricket },
-        { team: "CSE", image: cricket },
+        { team: "CSE", image: wcsett },
         { team: "CIVIL", image: civiltennies },
       ],
     },
