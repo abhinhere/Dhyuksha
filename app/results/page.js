@@ -12,6 +12,9 @@ import eeeten from "./results_images/eeetenn.jpg";
 import wwmcatug from "./results_images/wmcatug.jpg";
 import mmcack from "./results_images/mcack.jpg";
 import wcsett from "./results_images/csett.jpg";
+import fbcivil from "./results_images/fbcivil.jpg";
+import fbcse from "./results_images/fbcse.jpg";
+import fbit from "./results_images/fbit.jpg";
 
 export default function ResultsPage() {
   const events = [
@@ -61,6 +64,22 @@ export default function ResultsPage() {
         { team: "IT", image: cricket },
         { team: "CSE", image: wcsett },
         { team: "CIVIL", image: civiltennies },
+      ],
+    },
+    {
+      title: "Football (Men)",
+      winners: [
+        { team: "CIVIL", image: cricket },
+        { team: "EEE", image: cricket },
+        { team: "EC", image: cricket },
+      ],
+    },
+    {
+      title: "Football (Women)",
+      winners: [
+        { team: "CIVIL", image: fbcivil },
+        { team: "CSE", image: fbcse },
+        { team: "IT", image: fbit },
       ],
     },
   ];
