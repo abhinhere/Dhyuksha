@@ -15,6 +15,11 @@ import wcsett from "./results_images/csett.jpg";
 import fbcivil from "./results_images/fbcivil.jpg";
 import fbcse from "./results_images/fbcse.jpg";
 import fbit from "./results_images/fbit.jpg";
+import staffck from "./results_images/staffck.jpg";
+import stafftt from "./results_images/stafftt.jpg";
+import ectt from "./results_images/ectt.jpg";
+import fbcivilm from "./results_images/fbcivilm.jpg";
+import fbecm from "./results_images/fbecm.jpg";
 
 export default function ResultsPage() {
   const events = [
@@ -38,7 +43,7 @@ export default function ResultsPage() {
       title: "Cricket (Men)",
       winners: [
         { team: "MCA", image: mmcack },
-        { team: "STAFF", image: cricket },
+        { team: "STAFF", image: staffck },
         { team: "ECE", image: ece },
       ],
     },
@@ -54,8 +59,8 @@ export default function ResultsPage() {
       title: "Table Tennis (Men)",
       winners: [
         { team: "EEE", image: eeeten },
-        { team: "ECE", image: cricket },
-        { team: "STAFF", image: cricket },
+        { team: "ECE", image: ectt },
+        { team: "STAFF", image: stafftt },
       ],
     },
     {
@@ -69,9 +74,9 @@ export default function ResultsPage() {
     {
       title: "Football (Men)",
       winners: [
-        { team: "CIVIL", image: cricket },
+        { team: "CIVIL", image: fbcivilm },
         { team: "EEE", image: cricket },
-        { team: "EC", image: cricket },
+        { team: "EC", image: fbecm },
       ],
     },
     {
