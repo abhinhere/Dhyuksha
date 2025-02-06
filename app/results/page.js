@@ -22,6 +22,7 @@ import fbcivilm from "./results_images/fbcivilm.jpg";
 import fbecm from "./results_images/fbecm.jpg";
 import ittt from "./results_images/ittt.jpg";
 import ckit from "./results_images/ckit.jpg";
+import eeefbb from "./results_images/eeefbb.jpg";
 
 
 export default function ResultsPage() {
@@ -78,7 +79,7 @@ export default function ResultsPage() {
       title: "Football (Men)",
       winners: [
         { team: "CIVIL", image: fbcivilm },
-        { team: "EEE", image: cricket },
+        { team: "EEE", image: eeefbb },
         { team: "EC", image: fbecm },
       ],
     },
