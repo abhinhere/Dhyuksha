@@ -20,6 +20,9 @@ import stafftt from "./results_images/stafftt.jpg";
 import ectt from "./results_images/ectt.jpg";
 import fbcivilm from "./results_images/fbcivilm.jpg";
 import fbecm from "./results_images/fbecm.jpg";
+import ittt from "./results_images/ittt.jpg";
+import ckit from "./results_images/ckit.jpg";
+
 
 export default function ResultsPage() {
   const events = [
@@ -50,7 +53,7 @@ export default function ResultsPage() {
     {
       title: "Cricket (Women)",
       winners: [
-        { team: "IT", image: cricket },
+        { team: "IT", image: ckit },
         { team: "ECE", image: cricket },
         { team: "CSE", image: cricket },
       ],
@@ -66,7 +69,7 @@ export default function ResultsPage() {
     {
       title: "Table Tennis (Women)",
       winners: [
-        { team: "IT", image: cricket },
+        { team: "IT", image: ittt },
         { team: "CSE", image: wcsett },
         { team: "CIVIL", image: civiltennies },
       ],
