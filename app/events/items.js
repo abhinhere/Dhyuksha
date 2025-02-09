@@ -1,14 +1,22 @@
 const offstage = [
     {
         title: "Running",
+        description: "100m, 200m, 400m, 800m, 1500m, 4x100m",
+    },
+    {
+        title: "Long Jump",
         description: "",
     },
     {
-        title: "Shot put",
+        title: "High Jump",
         description: "",
     },
     {
-        title: "Discus throw",
+        title: "Shot Put",
+        description: "",
+    },
+    {
+        title: "Discus Throw",
         description: "",
     },
 ];
