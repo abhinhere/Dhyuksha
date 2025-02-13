@@ -23,6 +23,7 @@ import fbecm from "./results_images/fbecm.jpg";
 import ittt from "./results_images/ittt.jpg";
 import ckit from "./results_images/ckit.jpg";
 import eeefbb from "./results_images/eeefbb.jpg";
+import csck from "./results_images/csck.jpg";
 
 
 export default function ResultsPage() {
@@ -56,7 +57,7 @@ export default function ResultsPage() {
       winners: [
         { team: "IT", image: ckit },
         { team: "ECE", image: cricket },
-        { team: "CSE", image: cricket },
+        { team: "CSE", image: csck },
       ],
     },
     {
