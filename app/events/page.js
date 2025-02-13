@@ -4,7 +4,7 @@ import { offstage, onstage } from "./items";
 
 export default function CardHoverEffectDemo() {
     return (
-        <div className='w-[100%] h-[100%] flex bg-[url("aboutbg.png")] bg-opacity-60 bg-black bg-cover'>
+        <div className='w-[100%] flex bg-[url("aboutbg.png")] bg-opacity-60 bg-black bg-cover'>
 
             <div className='font-makalo flex-col flex mx-auto px-8 w-full h-full bg-[] items-center'>
                 <div className="flex justify-center flex-col w-full h-full items-center py-20 gap-10">
