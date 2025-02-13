@@ -91,6 +91,30 @@ export default function ResultsPage() {
         { team: "IT", image: fbit },
       ],
     },
+    {
+      title: "Badminiton (Women)",
+      winners: [
+        { team: "IT", image: cricket },
+        { team: "STAFF", image: cricket },
+        { team: "CSE", image: cricket },
+      ],
+    },
+    {
+      title: "Badminiton (MEN)",
+      winners: [
+        { team: "STAFF", image: cricket },
+        { team: "EEE", image: cricket },
+        { team: "CIVIL", image: cricket },
+      ],
+    },
+    {
+      title: "Badminiton (MIXED)",
+      winners: [
+        { team: "CSE", image: cricket },
+        { team: "IT", image: cricket },
+        { team: "CIVIL", image: cricket },
+      ],
+    },
   ];
 
   return (
