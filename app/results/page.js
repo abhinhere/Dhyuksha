@@ -24,6 +24,13 @@ import ittt from "./results_images/ittt.jpg";
 import ckit from "./results_images/ckit.jpg";
 import eeefbb from "./results_images/eeefbb.jpg";
 import csck from "./results_images/csck.jpg";
+import volleyball from "./results_images/volleyball.jpg";
+import bateee from "./results_images/bateee.jpg";
+import badminiton from "./results_images/badminiton.jpg";
+import batcivilmix from "./results_images/batcivilmix.jpg";
+import batcivil from "./results_images/batcivil.jpg";
+import batstaff from "./results_images/batstaff.jpg";
+import batstaffwm from "./results_images/batstaffwm.jpg";
 
 
 export default function ResultsPage() {
@@ -95,25 +102,41 @@ export default function ResultsPage() {
     {
       title: "Badminiton (Women)",
       winners: [
-        { team: "IT", image: cricket },
-        { team: "STAFF", image: cricket },
-        { team: "CSE", image: cricket },
+        { team: "IT", image: badminiton },
+        { team: "STAFF", image: batstaffwm },
+        { team: "CSE", image: badminiton },
       ],
     },
     {
-      title: "Badminiton (MEN)",
+      title: "Badminiton (Men)",
       winners: [
-        { team: "STAFF", image: cricket },
-        { team: "EEE", image: cricket },
-        { team: "CIVIL", image: cricket },
+        { team: "STAFF", image: batstaff },
+        { team: "EEE", image: bateee },
+        { team: "CIVIL", image: batcivil },
       ],
     },
     {
       title: "Badminiton (MIXED)",
       winners: [
-        { team: "CSE", image: cricket },
-        { team: "IT", image: cricket },
-        { team: "CIVIL", image: cricket },
+        { team: "CSE", image: badminiton },
+        { team: "IT", image: badminiton },
+        { team: "CIVIL", image: batcivilmix },
+      ],
+    },
+    {
+      title: "Volleyball  (Women)",
+      winners: [
+        { team: "IT", image: volleyball },
+        { team: "CSE", image: volleyball },
+        { team: "CIVIL", image: volleyball },
+      ],
+    },
+    {
+      title: "Volleyball  (Men)",
+      winners: [
+        { team: "MCA", image: volleyball },
+        { team: "EC", image: volleyball },
+        { team: "CSE", image: volleyball },
       ],
     },
   ];
