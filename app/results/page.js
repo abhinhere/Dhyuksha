@@ -33,6 +33,7 @@ import batstaff from "./results_images/batstaff.jpg";
 import batstaffwm from "./results_images/batstaffwm.jpg";
 import batitw from "./results_images/batitw.jpg";
 import volleycivilw from "./results_images/volleycivilw.jpg";
+import vollymcam from "./results_images/vollymcam.jpg";
 
 
 export default function ResultsPage() {
@@ -136,7 +137,7 @@ export default function ResultsPage() {
     {
       title: "Volleyball  (Men)",
       winners: [
-        { team: "MCA", image: volleyball },
+        { team: "MCA", image: vollymcam },
         { team: "EC", image: volleyball },
         { team: "CSE", image: volleyball },
       ],
