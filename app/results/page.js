@@ -31,6 +31,8 @@ import batcivilmix from "./results_images/batcivilmix.jpg";
 import batcivil from "./results_images/batcivil.jpg";
 import batstaff from "./results_images/batstaff.jpg";
 import batstaffwm from "./results_images/batstaffwm.jpg";
+import batitw from "./results_images/batitw.jpg";
+import volleycivilw from "./results_images/volleycivilw.jpg";
 
 
 export default function ResultsPage() {
@@ -102,7 +104,7 @@ export default function ResultsPage() {
     {
       title: "Badminiton (Women)",
       winners: [
-        { team: "IT", image: badminiton },
+        { team: "IT", image: batitw },
         { team: "STAFF", image: batstaffwm },
         { team: "CSE", image: badminiton },
       ],
@@ -128,7 +130,7 @@ export default function ResultsPage() {
       winners: [
         { team: "IT", image: volleyball },
         { team: "CSE", image: volleyball },
-        { team: "CIVIL", image: volleyball },
+        { team: "CIVIL", image: volleycivilw },
       ],
     },
     {
